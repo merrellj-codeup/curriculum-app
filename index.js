@@ -42,5 +42,6 @@ $('[data-dropdown="toggle"]').on('click', function(){
 
 $(document).on('click', '.nav-dropdown-link', function(){
     let target = $(this).children('.nav-dropdown-title').text().toLowerCase();
+    target = target.split(' ').join('-');
     $('#' + target)[0].scrollIntoView({behavior: 'smooth' });
 });
