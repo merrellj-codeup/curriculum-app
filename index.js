@@ -3,6 +3,7 @@ import marked from 'https://cdn.skypack.dev/marked';
 fetch( 'https://merrellj-codeup.github.io/curriculum-app/java/v2/introduction.md' )
   .then( response => response.text() )
   .then( (result) => {
+    console.log(result);
     var content = marked.parse(result);
     document.querySelector( '#mdimport' ).innerHTML = content;
   });
