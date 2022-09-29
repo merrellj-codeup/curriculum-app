@@ -953,12 +953,6 @@ pre {
     font-family: Courier New, Courier, monospace
 }
 
-.md-typeset {
-    font-size: 1.6rem;
-    line-height: 1.6;
-    -webkit-print-color-adjust: exact
-}
-
 .md-typeset blockquote,
 .md-typeset ol,
 .md-typeset p,
