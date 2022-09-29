@@ -1,0 +1,1 @@
+import react from 'https://cdn.skypack.dev/react';
