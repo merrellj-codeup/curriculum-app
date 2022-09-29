@@ -39,6 +39,9 @@ $('[data-dropdown="toggle"]').on('click', function(){
   }
 });
 
+$(document).on('click', '.collapse-button', function(){
+    $('.navigation').toggleClass('closed');
+});
 
 $(document).on('click', '.nav-dropdown-link', function(){
     let target = $(this).children('.nav-dropdown-title').text().toLowerCase();
