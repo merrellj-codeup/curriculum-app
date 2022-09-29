@@ -1,10 +1,10 @@
 import react from 'https://cdn.skypack.dev/react';
-
-const {
+import reactDom from 'https://cdn.skypack.dev/react-dom';
+import {
     BrowserRouter,
     Route,
     Link
-  } = ReactRouterDOM
+  } from 'https://cdn.skypack.dev/react-router-dom';
   
   const App = () => (
     <div>
