@@ -721,6 +721,12 @@ body {
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
   }
+
+  .md-typeset {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    -webkit-print-color-adjust: exact;
+}
   
   .text-block {
     display: -webkit-box;
