@@ -90,6 +90,15 @@ input {
     outline: 0
 }
 
+.nav-search-input {
+    display:flex;
+    height: 40px;
+    border: 1px solid #e0e0e0;
+    width: 100%;
+    border-radius:4px;
+    padding-left:30px;
+}
+
 .md-clipboard:before,
 .md-icon,
 .md-nav__button,
