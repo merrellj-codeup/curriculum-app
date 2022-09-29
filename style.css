@@ -963,42 +963,6 @@ body {
     cursor: pointer
 }
 
-.md-icon--arrow-back:before {
-    content: "\E5C4"
-}
-
-.md-icon--arrow-forward:before {
-    content: "\E5C8"
-}
-
-.md-icon--menu:before {
-    content: "\E5D2"
-}
-
-.md-icon--search:before {
-    content: "\E8B6"
-}
-
-[dir=rtl] .md-icon--arrow-back:before {
-    content: "\E5C8"
-}
-
-[dir=rtl] .md-icon--arrow-forward:before {
-    content: "\E5C4"
-}
-
-body {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
-}
-
-body,
-input {
-    color: rgba(0, 0, 0, .87);
-    -webkit-font-feature-settings: "kern", "liga";
-    font-feature-settings: "kern", "liga";
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif
-}
 
 code,
 kbd,
