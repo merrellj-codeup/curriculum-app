@@ -1,6 +1,11 @@
 import marked from 'https://cdn.skypack.dev/marked';
 
-console.log('lets do this');
+fetch( 'https://merrellj-codeup.github.io/curriculum-app/java/v2/introduction.md' )
+  .then( response => response.text() )
+  .then( (result) => {
+    var content = marked.parse(result);
+    document.querySelector( '#mdimport' ).innerHTML = content;
+  });
   
 $('[data-dropdown="toggle"]').on('click', function(){
   var toggle = $(this),
