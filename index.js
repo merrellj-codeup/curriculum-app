@@ -1,5 +1,5 @@
 import * as marked from 'https://cdn.skypack.dev/marked';
-import hljs from 'https://cdn.skypack.dev/highlight.js';
+import highlightJs from 'https://cdn.skypack.dev/highlight.js';
 
 fetch( 'https://merrellj-codeup.github.io/curriculum-app/java/v2/introduction.md' )
   .then( response => response.text() )
@@ -8,7 +8,7 @@ fetch( 'https://merrellj-codeup.github.io/curriculum-app/java/v2/introduction.md
     document.querySelector( '#mdimport' ).innerHTML = content;
   })
   .then( () => {
-    hljs.highlightAll();
+    highlightJs.highlightAll();
   }) ;
   
 $('[data-dropdown="toggle"]').on('click', function(){
