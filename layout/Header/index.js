@@ -2,7 +2,6 @@ import { html } from 'https://cdn.skypack.dev/htm/react';
 import react from 'https://cdn.skypack.dev/react';
 import styledComponents from 'https://cdn.skypack.dev/styled-components';
 
-//const html = html.bind(styledComponents);
 const logo = './images/CodeupFullColorLogo.png';
 
 let HeaderWrapper = styledComponents.div`
