@@ -2,9 +2,10 @@ import { html } from 'https://cdn.skypack.dev/htm/react';
 import react from 'https://cdn.skypack.dev/react';
 import styledComponents from 'https://cdn.skypack.dev/styled-components';
 
+//const html = html.bind(styledComponents);
 const logo = '/images/CodeupFullColorLogo.png';
 
-const HeaderWrapper = styledComponents.div`
+let HeaderWrapper = styledComponents.div`
   position: relative;
   z-index: 2;
   display: flex;
@@ -18,6 +19,7 @@ const HeaderWrapper = styledComponents.div`
   background-color: #fff;
 `
 console.log(HeaderWrapper);
+
 export function Header() {
   return (
     html`
@@ -25,6 +27,7 @@ export function Header() {
       <img src="${logo}" alt="" class="image" />
       <div class="header-title">Java Curriculum</div>
       <a href="#" class="button w-button">Back to Course</a>
-    </header>`
+    </header>
+    `
   );
 }
