@@ -4,7 +4,7 @@ import styledComponents from 'https://cdn.skypack.dev/styled-components';
 
 const logo = './images/CodeupFullColorLogo.png';
 
-let HeaderWrapper = styledComponents.div`
+const HeaderWrapper = styledComponents.div`
   position: relative;
   z-index: 2;
   display: flex;
@@ -22,6 +22,7 @@ console.log(HeaderWrapper);
 export function Header() {
   return (
     html`
+    <!-- I'd like to replace the header element with my styled component defined above -->
     <header class="header">
       <img src="${logo}" alt="" class="image" />
       <div class="header-title">Java Curriculum</div>
